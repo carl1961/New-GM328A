@@ -66,6 +66,8 @@ mega328_color_kit.hex
 
 Point AVRDUDESS to the files  check everything then press Program!
 
+Pictures of what I did here
+https://www.eevblog.com/forum/testgear/lastest-gm328a/msg5327048/#msg5327048
 
 
 I will update with pictures as I get time......
