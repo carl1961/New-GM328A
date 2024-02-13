@@ -1,6 +1,7 @@
 # New-GM328A
 My New GM328A with ATMEGA328P (Not removable)
 
+![WIN_20240213_00_48_17_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/10ebdc0a-1f45-45ed-a58f-5764b86e4c5f)
 
 ![WIN_20240213_00_16_46_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/8fc9be2f-b6c5-4626-9211-0118ede7268a)
 
