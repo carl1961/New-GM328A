@@ -1,12 +1,17 @@
 # New-GM328A
 My New GM328A with ATMEGA328P (Not removable)
 
+
+![WIN_20240213_00_16_46_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/8fc9be2f-b6c5-4626-9211-0118ede7268a)
+
 How I Compiled files On Windows 11 Windows Subsystem for Linux (Ubunti Jammy)
 
 How to install Linux on Windows with WSL  https://learn.microsoft.com/en-us/windows/wsl/install
 
 After Installing you can access you linux drive with Windows Explorer. I created short cuts on my desktop
 example   \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ComponentTester-1.51m
+
+![GM328A_Programing_Setup](https://github.com/carl1961/New-GM328A/assets/3056821/3a151028-bf4d-4c7c-a00e-a6f73a3b285a)
 
 
 I did all the code working in Windows Explorer and only used linux to run (make) 
@@ -65,6 +70,11 @@ mega328_color_kit.eep
 mega328_color_kit.hex 
 
 Point AVRDUDESS to the files  check everything then press Program!
+
+![AVRDUDESS 2 16 (25)_GM328A](https://github.com/carl1961/New-GM328A/assets/3056821/fef00efd-07e0-4d68-a77d-5ec6f86d7cf5)
+
+
+![WIN_20240213_00_17_32_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/3798caa2-a67c-4b79-a4a5-549109be0a04)
 
 Pictures of what I did here
 https://www.eevblog.com/forum/testgear/lastest-gm328a/msg5327048/#msg5327048
