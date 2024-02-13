@@ -17,7 +17,7 @@
 #define OPT_CINVERSE	4 // color is inverted (black to white ...) not used!
 
 #define SCREEN_WIDTH  128
-#define SCREEN_HEIGHT  64
+#define SCREEN_HEIGHT 64
 
 // configure the LINE_LENGTH and LCD_LINES for character Display
 #ifdef FOUR_LINE_LCD
@@ -219,11 +219,11 @@
 	#undef SCREEN_HEIGHT
 	#undef SCREEN_WIDTH
 #if LCD_SCREEN_ROTATE != 0
-        #define SCREEN_HEIGHT 128
-        #define SCREEN_WIDTH 160
-#else
         #define SCREEN_HEIGHT 160
         #define SCREEN_WIDTH 128
+#else
+        #define SCREEN_HEIGHT 128
+        #define SCREEN_WIDTH 160
 #endif
 //Makros for LCD
 	#define lcd_write_data(data)                   _lcd_hw_write(0x01, data);
