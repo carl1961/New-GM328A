@@ -1,9 +1,21 @@
 # New-GM328A
 My New GM328A with ATMEGA328P (Not removable)
 
+
+(mega328_color_kit 1.13k)
+
 ![WIN_20240213_00_48_17_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/10ebdc0a-1f45-45ed-a58f-5764b86e4c5f)
 
 ![WIN_20240213_00_16_46_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/8fc9be2f-b6c5-4626-9211-0118ede7268a)
+
+(ComponentTester 1.51m)
+
+![WIN_20240214_00_50_15_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/c33c48c8-5ef9-4da9-ac19-e6088ed48d31)
+
+![WIN_20240214_00_49_43_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/dea707b2-fa15-4ce5-b0d9-f772001620c2)
+
+
+
 
 How I Compiled files On Windows 11 Windows Subsystem for Linux (Ubunti Jammy)
 
@@ -57,9 +69,7 @@ sudo apt-get install binutils gcc-avr avr-libc uisp avrdude
 
 
 
-# Install: Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k
-
-                 # mega328_color_kit
+# Install:  TransistorTester 1.13k  ( mega328_color_kit )
 				 
 				 
 If you installed Markus Reschke (madires) ComponentTester 1.51m  Skip git clone (Linux will complain)
@@ -85,7 +95,7 @@ Point AVRDUDESS to the files  check everything then press Program!
 
 
 
-# Install:   Markus Reschke (madires) ComponentTester 1.51m
+# Install:    ComponentTester 1.51m
 
 
 If you installed Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k  Skip git clone (Linux will complain)
