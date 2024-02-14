@@ -188,7 +188,7 @@
  *  - uncomment to enable
  */
 
-//#define HW_FREQ_COUNTER_BASIC
+#define HW_FREQ_COUNTER_BASIC
 
 
 /*
@@ -329,7 +329,7 @@
  */
 
 //#define HW_BUZZER
-#define BUZZER_ACTIVE                   /* active buzzer */
+//#define BUZZER_ACTIVE                   /* active buzzer */
 //#define BUZZER_PASSIVE                  /* passive buzzer */
 
 
@@ -429,7 +429,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_ENCODER
+#define SW_ENCODER
 
 
 /*
@@ -656,7 +656,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_DHTXX
+#define SW_DHTXX
 
 
 /*
@@ -1057,7 +1057,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_COLORED_TITLES
+#define UI_COLORED_TITLES
 
 
 /*
