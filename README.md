@@ -112,8 +112,8 @@ save changes
 
 copy these files to  a folder on   computer to copy 
 
-ComponentTester.eep
 ComponentTester.hex
+ComponentTester.eep
 
 Point AVRDUDESS to the files  check everything then press Program!
 
