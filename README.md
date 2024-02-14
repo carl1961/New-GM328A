@@ -79,14 +79,17 @@ git clone https://github.com/carl1961/New-GM328A
 
 cd  ~/New-GM328A/mega328_color_kit/mega328_color_kit
 
-(make changes to code  the type)
+(make changes to code)
+save changes
+then type
 
 make   
 
-I then made a working folder on my computer to copy 
+I then make a folder on  computer to copy compiled files too.
 
+ mega328_color_kit.hex,   mega328_color_kit.eep 
 
- mega328_color_kit.hex,   mega328_color_kit.eep  
+ Refresh Windows Explorer
 
 Point AVRDUDESS to the files  check everything then press Program!
 
@@ -104,14 +107,17 @@ git clone https://github.com/carl1961/New-GM328A
 
 cd  ~/New-GM328A/ComponentTester-1.51m
 
-(make changes to code  the type)
+(make changes to code)
 save changes
+the type
 
- type make   
+make   
 
-copy these files to  a folder on   computer to copy 
+I then make a folder on  computer to copy compiled files too.
 
 ComponentTester.hex ,   ComponentTester.eep
+
+ Refresh Windows Explorer
 
 Point AVRDUDESS to the files  check everything then press Program!
 
