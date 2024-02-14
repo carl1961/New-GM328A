@@ -86,8 +86,7 @@ make
 I then made a working folder on my computer to copy 
 
 
-mega328_color_kit.eep
-mega328_color_kit.hex 
+ mega328_color_kit.hex  mega328_color_kit.eep  
 
 Point AVRDUDESS to the files  check everything then press Program!
 
@@ -112,8 +111,7 @@ save changes
 
 copy these files to  a folder on   computer to copy 
 
-ComponentTester.hex
-ComponentTester.eep
+ComponentTester.hex   ComponentTester.eep
 
 Point AVRDUDESS to the files  check everything then press Program!
 
