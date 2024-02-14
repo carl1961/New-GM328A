@@ -55,17 +55,26 @@ sudo apt-get update
 
 sudo apt-get install binutils gcc-avr avr-libc uisp avrdude
 
+
+
+# Install: Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k
+
+                 # mega328_color_kit
+				 
+				 
+If you installed Markus Reschke (madires) ComponentTester 1.51m  Skip git clone (Linux will complain)
+You already have New-GM328A folder and all files!
+
 git clone https://github.com/carl1961/New-GM328A 
 
 cd  ~/New-GM328A/mega328_color_kit/mega328_color_kit
 
-make changes to code  the type
+(make changes to code  the type)
 
 make   
 
 I then made a working folder on my computer to copy 
 
-\\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\mega328_color_kit\mega328_color_kit
 
 mega328_color_kit.eep
 mega328_color_kit.hex 
@@ -75,10 +84,33 @@ Point AVRDUDESS to the files  check everything then press Program!
 ![AVRDUDESS 2 16 (25)_GM328A](https://github.com/carl1961/New-GM328A/assets/3056821/fef00efd-07e0-4d68-a77d-5ec6f86d7cf5)
 
 
+
+# Install:   Markus Reschke (madires) ComponentTester 1.51m
+
+
+If you installed Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k  Skip git clone (Linux will complain)
+You already have New-GM328A folder and all files!
+
+git clone https://github.com/carl1961/New-GM328A  
+
+cd  ~/New-GM328A/ComponentTester-1.51m
+
+(make changes to code  the type)
+save changes
+
+ type make   
+
+copy these files to  a folder on   computer to copy 
+
+ComponentTester.eep
+ComponentTester.hex
+
+Point AVRDUDESS to the files  check everything then press Program!
+
+
 ![WIN_20240213_00_17_32_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/3798caa2-a67c-4b79-a4a5-549109be0a04)
 
 Pictures of what I did here
 https://www.eevblog.com/forum/testgear/lastest-gm328a/msg5327048/#msg5327048
-
 
 I will update with pictures as I get time......
