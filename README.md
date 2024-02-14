@@ -117,8 +117,9 @@ ComponentTester.hex
 
 Point AVRDUDESS to the files  check everything then press Program!
 
+![image](https://github.com/carl1961/New-GM328A/assets/3056821/b8fd3374-1c50-4282-b1d3-26631ee217dd)
 
-![WIN_20240213_00_17_32_Pro](https://github.com/carl1961/New-GM328A/assets/3056821/3798caa2-a67c-4b79-a4a5-549109be0a04)
+
 
 Pictures of what I did here
 https://www.eevblog.com/forum/testgear/lastest-gm328a/msg5327048/#msg5327048
