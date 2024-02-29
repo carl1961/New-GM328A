@@ -887,6 +887,7 @@ uint8_t LargeCap(Capacitor_Type *Cap)
   uint16_t          TempInt;       /* temp. value */
   uint16_t          Pulses;        /* number of charging pulses */
   int16_t           U_Zero;        /* voltage before charging (zero offset) */
+  int16_t           U_temp;        /* temporary voltage */
   uint16_t          U_Cap;         /* voltage of DUT */
   uint16_t          U_Drop = 0;    /* voltage drop (self-discharge) */
   uint16_t          U_leak = 0;    /* voltage drop (leakage current) */
@@ -953,15 +954,17 @@ large_cap:
     U_Cap = ReadU(Probes.Ch_1);         /* get voltage */
 
     /* consider zero offset */
-    if (U_Cap > U_Zero)            /* voltage higher than zero offset */
-      U_Cap -= U_Zero;                  /* subtract zero offset */
+    U_temp = (int16_t)U_Cap;       /* explicit type conversion */
+    if (U_temp > U_Zero)           /* voltage higher than zero offset */
+      U_temp -= U_Zero;                 /* subtract zero offset */
     else                           /* shouldn't happen but you never know */
-      U_Cap = 0;                        /* assume 0V */
+      U_temp = 0;                       /* assume 0V */
+    U_Cap = (uint16_t)U_temp;      /* take result */
 
     /* end loop if charging is too slow */
     if ((Pulses == 126) && (U_Cap < 75)) TempByte = 0;
     
-    /* end loop if 300mV are reached */
+    /* end loop if 300mV are reached (cap charged) */
     if (U_Cap >= 300) TempByte = 0;
 
     /* end loop if maximum number of pulses is reached (timeout) */
@@ -1170,7 +1173,6 @@ large_cap:
  *
  *  returns:
  *  - 3 on success
- *  - 2 if capacitance is too low
  *  - 1 if capacitance is too high
  *  - 0 on any problem
  */
