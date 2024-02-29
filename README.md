@@ -80,7 +80,9 @@ git clone https://github.com/carl1961/New-GM328A
 cd  ~/New-GM328A/mega328_color_kit/mega328_color_kit
 
 (make changes to code)
+
 save changes
+
 then type
 
 make   
@@ -108,7 +110,9 @@ git clone https://github.com/carl1961/New-GM328A
 cd  ~/New-GM328A/ComponentTester-1.51m
 
 (make changes to code)
+
 save changes
+
 the type
 
 make   
